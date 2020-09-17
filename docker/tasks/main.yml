@@ -1,2 +1,25 @@
 ---
-# tasks file for docker
+  - name: Установка yum (на всякий )
+    yum:
+        name: yum-utils
+        state: latest
+
+  - name: Добавление записи в репозиторий
+    get_url:
+        url: https://download.docker.com/linux/centos/docker-ce.repo
+        dest: /etc/yum.repos.d/docker-ce.repo
+
+  - name: Установка Docker с помощью bansible
+        shell: "yum -y install docker-ce --nobest"
+
+  - name: Запус docker службы
+    service:
+        name: docker
+        state: started
+        enabled: yes
+
+  - name: Добавление пользователя admin в doker группу
+    user:
+        name: admin
+        groups: docker
+        append: yes

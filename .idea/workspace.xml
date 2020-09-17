@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b56c51c6-9826-4120-97bb-0cf5c43441f5" name="Default Changelist" comment="" />
+    <list default="true" id="b56c51c6-9826-4120-97bb-0cf5c43441f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/docker/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/tasks/main.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1heBC6kTjrFgNJvLn2SpTyfoWML" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,5 +44,17 @@
       <screen x="72" y="27" width="1848" height="948" />
     </state>
     <state x="787" y="422" width="417" height="165" key="Github.CreateGistDialog/72.27.1848.948@72.27.1848.948" timestamp="1600361881989" />
+    <state x="857" y="401" width="277" height="207" key="Github.ShareDialog" timestamp="1600361916575">
+      <screen x="72" y="27" width="1848" height="948" />
+    </state>
+    <state x="857" y="401" width="277" height="207" key="Github.ShareDialog/72.27.1848.948@72.27.1848.948" timestamp="1600361916575" />
+    <state x="800" y="188" width="381" height="633" key="Github.UntrackedFilesDialog" timestamp="1600361923567">
+      <screen x="72" y="27" width="1848" height="948" />
+    </state>
+    <state x="800" y="188" width="381" height="633" key="Github.UntrackedFilesDialog/72.27.1848.948@72.27.1848.948" timestamp="1600361923567" />
+    <state x="591" y="237" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600362050851">
+      <screen x="72" y="27" width="1848" height="948" />
+    </state>
+    <state x="591" y="237" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.948@72.27.1848.948" timestamp="1600362050851" />
   </component>
 </project>

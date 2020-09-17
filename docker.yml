@@ -1,0 +1,7 @@
+- hosts: CentOS
+  become: yes
+  remote_user: root
+
+  roles:
+    - docker
+
