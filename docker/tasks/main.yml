@@ -1,25 +1,38 @@
 ---
   - name: Установка yum (на всякий )
     yum:
-        name: yum-utils
-        state: latest
+      name:
+        - yum-utils
+      state: latest
+
+  - name: Установка пакетов Python
+    pip:
+      name: docker
+      state: latest
 
   - name: Добавление записи в репозиторий
     get_url:
-        url: https://download.docker.com/linux/centos/docker-ce.repo
-        dest: /etc/yum.repos.d/docker-ce.repo
+      url: https://download.docker.com/linux/centos/docker-ce.repo
+      dest: /etc/yum.repos.d/docker-ce.repo
 
   - name: Установка Docker с помощью bansible
-        shell: "yum -y install docker-ce --nobest"
+    shell: 'yum -y install docker-ce --nobest'
 
   - name: Запус docker службы
     service:
-        name: docker
-        state: started
-        enabled: yes
+      name: docker
+      state: started
+      enabled: yes
 
   - name: Добавление пользователя admin в doker группу
     user:
-        name: admin
-        groups: docker
-        append: yes
+      name: admin
+      groups: docker
+      append: yes
+
+  - name: Создание контейнера
+    docker_container:
+      name: dokcer
+      image: kroniak/ssh-client
+      state: started
+
