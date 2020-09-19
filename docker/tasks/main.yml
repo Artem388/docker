@@ -32,7 +32,7 @@
 
   - name: Создание контейнера
     docker_container:
-      name: docker1
+      name: docker
       image: kroniak/ssh-client
       interactive: yes
 
