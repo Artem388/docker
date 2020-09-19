@@ -72,6 +72,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Установка Docker" />
@@ -98,9 +99,9 @@
       <screen x="72" y="27" width="1848" height="948" />
     </state>
     <state x="800" y="188" width="381" height="633" key="Github.UntrackedFilesDialog/72.27.1848.948@72.27.1848.948" timestamp="1600361923567" />
-    <state x="591" y="237" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600362950504">
+    <state x="591" y="237" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600521702796">
       <screen x="72" y="27" width="1848" height="948" />
     </state>
-    <state x="591" y="237" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.948@72.27.1848.948" timestamp="1600362950504" />
+    <state x="591" y="237" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1848.948@72.27.1848.948" timestamp="1600521702796" />
   </component>
 </project>

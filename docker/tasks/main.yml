@@ -24,7 +24,7 @@
       state: started
       enabled: yes
 
-  - name: Добавление пользователя admin в doker группу
+  - name: Добавление пользователя admin в docker группу
     user:
       name: admin
       groups: docker
@@ -32,7 +32,8 @@
 
   - name: Создание контейнера
     docker_container:
-      name: dokcer
+      name: docker1
       image: kroniak/ssh-client
-      state: started
+      interactive: yes
+
 
